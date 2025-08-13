@@ -1,0 +1,21 @@
+{
+  "name": "asistente-whastapp-ia",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google/generative-ai": "0.3.1",
+    "cheerio": "1.0.0-rc.12",
+    "dotenv": "16.4.5",
+    "googleapis": "126.0.1",
+    "puppeteer": "19.7.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.32.0"
+  }
+}
