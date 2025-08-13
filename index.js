@@ -1,4 +1,6 @@
-// index.js
+/*para iniciarlo rm -rf .wwebjs_auth .wwebjs_cache
+npm install whatsapp-web.js@latest qrcode-terminal
+node index.js*/
 const path = require("path");
 const { Client, LocalAuth, MessageMedia } = require("whatsapp-web.js");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
